@@ -1,0 +1,15 @@
+{
+    "name": "high-performance-php-mailer",
+    "description": "High-performance bulk email sender capable of ~500 emails/sec",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9",
+        "spatie/async": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
